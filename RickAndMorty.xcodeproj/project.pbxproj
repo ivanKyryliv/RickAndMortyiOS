@@ -20,6 +20,7 @@
 		2C6C27C72DA570F300AA7E24 /* RMEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C27C62DA570F300AA7E24 /* RMEpisodeViewController.swift */; };
 		2C6C27C92DA5710A00AA7E24 /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C27C82DA5710A00AA7E24 /* RMSettingsViewController.swift */; };
 		2C6C27D22DA5BA3D00AA7E24 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C27D12DA5BA3D00AA7E24 /* RMService.swift */; };
+		2C6C27D82DA5DEE800AA7E24 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C27D72DA5DEE800AA7E24 /* RMRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		2C6C27C62DA570F300AA7E24 /* RMEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeViewController.swift; sourceTree = "<group>"; };
 		2C6C27C82DA5710A00AA7E24 /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
 		2C6C27D12DA5BA3D00AA7E24 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
+		2C6C27D72DA5DEE800AA7E24 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +72,10 @@
 		2C6C279F2DA567E500AA7E24 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				2C6C27DB2DA5DF0D00AA7E24 /* Managers */,
+				2C6C27DA2DA5DF0300AA7E24 /* Views */,
+				2C6C27D92DA5DEF300AA7E24 /* ViewModels */,
 				2C6C27CF2DA5BA0C00AA7E24 /* APIClient */,
-				2C6C27CE2DA5B9F500AA7E24 /* ViewModels */,
-				2C6C27CD2DA5B9DB00AA7E24 /* Views */,
-				2C6C27CC2DA5B9C100AA7E24 /* Managers */,
 				2C6C27BA2DA56E5200AA7E24 /* Resources */,
 				2C6C27B52DA56DFD00AA7E24 /* Models */,
 				2C6C27B42DA56DEB00AA7E24 /* Controllers */,
@@ -123,33 +125,34 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		2C6C27CC2DA5B9C100AA7E24 /* Managers */ = {
+		2C6C27CF2DA5BA0C00AA7E24 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				2C6C27D12DA5BA3D00AA7E24 /* RMService.swift */,
+				2C6C27D72DA5DEE800AA7E24 /* RMRequest.swift */,
 			);
-			path = Managers;
+			path = APIClient;
 			sourceTree = "<group>";
 		};
-		2C6C27CD2DA5B9DB00AA7E24 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		2C6C27CE2DA5B9F500AA7E24 /* ViewModels */ = {
+		2C6C27D92DA5DEF300AA7E24 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		2C6C27CF2DA5BA0C00AA7E24 /* APIClient */ = {
+		2C6C27DA2DA5DF0300AA7E24 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2C6C27D12DA5BA3D00AA7E24 /* RMService.swift */,
 			);
-			path = APIClient;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C6C27DB2DA5DF0D00AA7E24 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +235,7 @@
 				2C6C27D22DA5BA3D00AA7E24 /* RMService.swift in Sources */,
 				2C6C27BC2DA56F3500AA7E24 /* RMLocation.swift in Sources */,
 				2C6C27BE2DA56F4E00AA7E24 /* RMCharacter.swift in Sources */,
+				2C6C27D82DA5DEE800AA7E24 /* RMRequest.swift in Sources */,
 				2C6C27C32DA570B000AA7E24 /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
