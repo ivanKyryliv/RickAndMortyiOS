@@ -40,7 +40,6 @@ final class RMTabBarController: UITabBarController {
             nav.navigationBar.prefersLargeTitles = true
         }
         
-        
         setViewControllers(navArray, animated: true)
         
     }

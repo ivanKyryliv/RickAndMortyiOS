@@ -24,6 +24,10 @@
 		2C6C27EA2DA5E4FE00AA7E24 /* RMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C27E92DA5E4FE00AA7E24 /* RMViewModel.swift */; };
 		2C6C27EC2DA5E51100AA7E24 /* RMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C27EB2DA5E51100AA7E24 /* RMView.swift */; };
 		2CC0E2DC2DA667AF00E61175 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0E2DB2DA667AF00E61175 /* RMEndpoint.swift */; };
+		2CC0E2DE2DA66F7C00E61175 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0E2DD2DA66F7C00E61175 /* RMOrigin.swift */; };
+		2CC0E2E02DA6701200E61175 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0E2DF2DA6701200E61175 /* RMSingleLocation.swift */; };
+		2CC0E2E22DA673CB00E61175 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0E2E12DA673CB00E61175 /* RMCharacterStatus.swift */; };
+		2CC0E2E42DA6744800E61175 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0E2E32DA6744800E61175 /* RMCharacterGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,10 @@
 		2C6C27E92DA5E4FE00AA7E24 /* RMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMViewModel.swift; sourceTree = "<group>"; };
 		2C6C27EB2DA5E51100AA7E24 /* RMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMView.swift; sourceTree = "<group>"; };
 		2CC0E2DB2DA667AF00E61175 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		2CC0E2DD2DA66F7C00E61175 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		2CC0E2DF2DA6701200E61175 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		2CC0E2E12DA673CB00E61175 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		2CC0E2E32DA6744800E61175 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				2C6C27BB2DA56F3500AA7E24 /* RMLocation.swift */,
 				2C6C27BD2DA56F4E00AA7E24 /* RMCharacter.swift */,
 				2C6C27BF2DA56F6E00AA7E24 /* RMEpisode.swift */,
+				2CC0E2DD2DA66F7C00E61175 /* RMOrigin.swift */,
+				2CC0E2DF2DA6701200E61175 /* RMSingleLocation.swift */,
+				2CC0E2E12DA673CB00E61175 /* RMCharacterStatus.swift */,
+				2CC0E2E32DA6744800E61175 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,7 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC0E2DE2DA66F7C00E61175 /* RMOrigin.swift in Sources */,
 				2C6C27C52DA570CA00AA7E24 /* RMLocationViewController.swift in Sources */,
+				2CC0E2E22DA673CB00E61175 /* RMCharacterStatus.swift in Sources */,
 				2C6C27C02DA56F6E00AA7E24 /* RMEpisode.swift in Sources */,
 				2C6C27A52DA567E500AA7E24 /* RMTabBarController.swift in Sources */,
 				2C6C27C72DA570F300AA7E24 /* RMEpisodeViewController.swift in Sources */,
@@ -245,7 +259,9 @@
 				2C6C27C92DA5710A00AA7E24 /* RMSettingsViewController.swift in Sources */,
 				2C6C27D22DA5BA3D00AA7E24 /* RMService.swift in Sources */,
 				2C6C27BC2DA56F3500AA7E24 /* RMLocation.swift in Sources */,
+				2CC0E2E02DA6701200E61175 /* RMSingleLocation.swift in Sources */,
 				2C6C27BE2DA56F4E00AA7E24 /* RMCharacter.swift in Sources */,
+				2CC0E2E42DA6744800E61175 /* RMCharacterGender.swift in Sources */,
 				2CC0E2DC2DA667AF00E61175 /* RMEndpoint.swift in Sources */,
 				2C6C27D82DA5DEE800AA7E24 /* RMRequest.swift in Sources */,
 				2C6C27C32DA570B000AA7E24 /* RMCharacterViewController.swift in Sources */,
