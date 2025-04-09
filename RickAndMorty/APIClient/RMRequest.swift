@@ -38,9 +38,8 @@ final class RMRequest {
         
         if !queryParameters.isEmpty {
             string += "?"
-            //name=value&name=value
             let argumentString = queryParameters.compactMap ({
-                guard let value = $0.value else { return nil}
+                guard let value = $0.value else { return nil }
                 return "\($0.name)=\(value)"
             }).joined(separator: "&")
             string += argumentString
@@ -71,4 +70,8 @@ final class RMRequest {
         self.pathComponents = pathComponents
         self.queryParameters = queryParameters
     }
+}
+
+extension RMRequest {
+    static let listCharactersRequest = RMRequest(endpoint: .character)
 }
