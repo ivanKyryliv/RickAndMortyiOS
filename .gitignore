@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/swift,swiftpackagemanager,objective-c,cocoapods,carthage
 # Edit at https://www.toptal.com/developers/gitignore?templates=swift,swiftpackagemanager,objective-c,cocoapods,carthage
 
+.DS_Store
+
 ### Carthage ###
 # Carthage
 #
@@ -141,8 +143,6 @@ Packages
 xcuserdata
 *.xcodeproj
 
-
-.DS_Store
 
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,swiftpackagemanager,objective-c,cocoapods,carthage
